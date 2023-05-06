@@ -4,7 +4,7 @@ const router = jsonServer.router("db.json");
 const cors = require("cors");
 server.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://majdblog.onrender.com",
     methods: " GET , DELETE, POST",
   })
 );
