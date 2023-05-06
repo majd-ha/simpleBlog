@@ -11,7 +11,7 @@ export default function Create() {
     setisPending(true);
     e.preventDefault();
     const blog = { title, body, Author };
-    fetch(`http://localhost:8000/Blogs`, {
+    fetch(`https://backendblog3.onrender.com/Blogs`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

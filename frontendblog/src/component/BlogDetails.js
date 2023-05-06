@@ -6,10 +6,10 @@ export default function BlogDetails() {
   const navigate = useNavigate();
   const { id } = useParams();
   const { data, isPending, error } = useFetch(
-    `http://localhost:8000/Blogs/${id}`
+    `https://backendblog3.onrender.com/Blogs/${id}`
   );
   const hanelclick = () => {
-    fetch(`http://localhost:8000/Blogs/${id}`, {
+    fetch(`https://backendblog3.onrender.com/Blogs/${id}`, {
       method: "DELETE",
     }).then(() => navigate("/"));
   };
