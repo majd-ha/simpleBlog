@@ -24,9 +24,9 @@
   margin-left: auto;
 }
 .navbar a {
-  margin-left: 16px;
+  /* margin-left: 16px; */
   text-decoration: none;
-  padding: 6px;
+  /* padding-left: 3px; */
 }
 .navbar a:hover {
   color: #f1356d;
