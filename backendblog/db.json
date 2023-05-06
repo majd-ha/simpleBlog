@@ -1,0 +1,28 @@
+{
+  "Blogs": [
+    {
+      "title": "Welcome party!",
+      "body": "    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quam harum. Expedita ipsum non vero quos vel et optio quae nisi amet praesentium, ducimus, a repellat omnis sequi deserunt quaerat.",
+      "Author": "ali",
+      "id": 2
+    },
+    {
+      "title": "mine",
+      "body": "hello there",
+      "Author": "majd",
+      "id": 4
+    },
+    {
+      "title": "about phones",
+      "body": "its sucks",
+      "Author": "ali",
+      "id": 5
+    },
+    {
+      "title": "test",
+      "body": "hi there",
+      "Author": "majood",
+      "id": 7
+    }
+  ]
+}
